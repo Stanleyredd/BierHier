@@ -6,14 +6,51 @@
 
 </head>
 <style>
-    * {
-        border: dotted 1px ;
-    }
+
     section{
         padding-left: 50px;
+        width: 50%;
     }
+    #wrapper {
+
+    }
+    nav {
+
+        width: 100%;
+    }
+    ul {
+        background-color: rgb(128,128,128);
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    @media all and (min-width: 550px) {
+        li {
+            display: inline-block;
+            border: none;
+        }
+
+    }
+
+        .tekst {
+            color: white;
+            padding-left: 50px;
+            text-decoration: none;
+
+  }
 </style>
 <body>
+<div id="wrapper">
+    <nav>
+        <ul>
+            <li><a class="tekst" href="#home">Home</a></li>
+            <li><a class="tekst" href="#concerten">Concerten</a></li>
+            <li><a class="tekst" href="#sport">Sport</a></li>
+            <li><a class="tekst" href="#recepten">Recepten</a></li>
+            <li><a class="tekst" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
 <section>
     <h3 id="contact">Contact</h3>
@@ -21,5 +58,6 @@
             width="50%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 </section>
 
+</div>
 </body>
 </html>
