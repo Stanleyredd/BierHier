@@ -2,9 +2,11 @@
 <html>
 <head>
     <style>
+
         .grid-container {
             display: grid;
             grid-template-columns: auto auto ;
+            padding: 30px;
 
         }
 
@@ -17,6 +19,7 @@
 
         .grid-container3 {
             grid-template-columns: auto;
+            padding-top: 50px;
 
 
         }
@@ -75,21 +78,21 @@
     <div class="grid-container4">
         <form action="http://www.savatarian.com/html5/form.php">
             <h3>Vul in</h3>
-            <div id="knoppen">
+
                 <div id="vragen">
-                    <label>Voornaam</label><input type="text" required>
+                    <label>Voornaam</label><input name="voornaam" type="text" required>
 
                     <br>
-                    <label>E-mailadres</label><input type="text">
-                    <br>
+                    <label> E-mailadres</label><input name="email" type="text">
 
-                    <label>Telefoon</label><input type="text" required>
 
-                    <br>
+                    <label>Telefoon</label><input name="telefoon" type="text"  required>
+
+
                     <label>Bericht</label>
                     <textarea name="omschrijving" cols="30" rows="10"></textarea>
 
-
+                    <div id="knoppen">
                     <input id="annuleer" type="reset" name="annuleer">
                     <input id="submit" type="submit" name="submit">
                 </div>
