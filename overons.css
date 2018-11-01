@@ -88,7 +88,7 @@ div#text {
 @media all and (min-width: 550px) {
 
     section#stuk1 {
-        width: 50%;
+        width: 40%;
         float: left;
     }
 
@@ -108,7 +108,7 @@ div#text {
 @media all and (min-width: 930px) {
 
     section#stuk1 {
-        width: 50%;
+        width: 40%;
         float: left;
     }
 
@@ -142,4 +142,3 @@ div#text {
 }
 
 
-</style>
