@@ -12,6 +12,16 @@ body {
     font-family: 'Raleway', sans-serif;
     background-color: rgb(128, 128, 128);
 }
+.grid-container, .grid-container4{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.grid-container2, .grid-container3, .grid-container5, .grid-container6{
+    display: grid;
+    grid-template-columns:  auto;
+
+}
+
 
 ul {
     list-style-type: none;
@@ -89,7 +99,7 @@ div#text {
     }
 
     section#stuk2 {
-        width: 50%;
+        width: 40%;
 
     }
 
@@ -102,12 +112,12 @@ div#text {
 @media all and (min-width: 930px) {
 
     section#stuk1 {
-        width: 40%;
+        width: 100%;
 
     }
 
     section#stuk2 {
-        width: 50%;
+        width: 100%;
 
 
     }
@@ -129,5 +139,3 @@ div#text {
         margin: auto;
     }
 }
-
-
