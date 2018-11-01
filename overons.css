@@ -1,0 +1,145 @@
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(128, 128, 128);
+}
+
+
+
+ul {
+    list-style-type: none;
+    background-color: rgb(49, 52, 58);
+    padding: 0px;
+    margin: 0px;
+}
+
+div#wrapper {
+    background-color: rgb(128, 128, 128);
+}
+
+header {
+    background-color: rgb(128, 128, 128);
+    text-align: center;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(109, 171, 198);
+}
+
+li {
+    text-align: center;
+    /*background-color: rgb(49, 52, 58);*/
+    padding: 10px;
+    padding-left: 20px;
+    border-top: 1px solid lightgrey;
+}
+
+li a {
+    /*background-color: rgb(49, 52, 58);*/
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+section, footer {
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(49, 52, 58);
+    color: white;
+    clear: both;
+}
+
+footer h3 {
+    color: white;
+}
+
+img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+h1 {
+    color: rgb(109, 171, 198);
+    text-align: center;
+}
+
+div#text {
+    color: white;
+}
+
+/*Alles hier onder heeft te maken de responisveheid van de website*/
+
+@media all and (min-width: 550px) {
+
+    section#stuk1 {
+        width: 50%;
+        float: left;
+    }
+
+    section#stuk2 {
+        width: 50%;
+        float: right;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    div#wrapper {
+        width: 1200px;
+        margin: auto;
+    }
+}
+
+@media all and (min-width: 930px) {
+
+    section#stuk1 {
+        width: 50%;
+        float: left;
+    }
+
+    section#stuk2 {
+        width: 50%;
+        float: right;
+
+    }
+
+
+    article {
+        display: inline-block;
+        width: 48%;
+        margin-right: 25px;
+    }
+
+    article:nth-child(even) {
+        margin-right: 0px;
+    }
+}
+
+@media all and (min-width: 550px) {
+    ul {
+
+    }
+
+    li {
+        display: inline-block;
+        border: none;
+    }
+}
+
+
+</style>
